@@ -1,66 +1,58 @@
-# 🌈 ALIASTORM // STORM REBORN
+<div align="center">
 
-**GlitchByte Phantom Labs** | Rainbow terminal • public username-page research • local-first reports
+<a href="https://hellfire13666.github.io/ALIASTORM-STORM-REBORN/">
+  <img src="docs/assets/storm-enchanted.webp" alt="ALIASTORM Storm Reborn, a colorful cyber-goth rainbow storm" width="100%">
+</a>
 
-![Storm Reborn artwork](docs/assets/storm-enchanted.webp)
+# 🌈 ALIASTORM // STORM REBORN ⚡
 
-### What this is
+**GLITCHBYTE PHANTOM LABS**
 
-A distinct GlitchByte implementation of a public username research workflow. It uses an attributed, MIT-licensed upstream public URL catalog. The tool checks up to 154 unique public-source patterns, labels uncertain evidence conservatively, and saves results locally. No results or private information are part of the public site.
+*Username → Public Sites → HTML Intelligence*
 
-### 🚀 Publish your own GitHub repo
+**[🌈 ENTER THE RAINBOW STORM](https://hellfire13666.github.io/ALIASTORM-STORM-REBORN/)** · **[💀 EXPLORE THE SOURCE](aliastorm.py)** · **[🎨 ART GALLERY](https://hellfire13666.github.io/ALIASTORM-STORM-REBORN/#gallery)**
 
-Create a new **empty public** repository named `ALIASTORM-STORM-REBORN` under `Hellfire13666` at <https://github.com/new>. Leave the GitHub auto-README/license options **unchecked**. From the extracted release folder, run `bash PUBLISH-TO-GITHUB.sh`. The script asks for confirmation and stages only allowlisted public files, with commit author set locally to `Hellfire13666`. Then enable **Settings → Pages → main → /docs**. See [Publication checklist](PUBLICATION-CHECKLIST.md).
+</div>
 
-This does not use or modify `AliaStorm-Favorite`, your installed tool, or private reports.
+---
 
-### 🌈 Showcase
+### ⚡ A colorful little storm with serious research power
 
-This repository's GitHub Pages site is in `docs/`. It includes our original art gallery and an **offline, non-scanning command preview**. Once GitHub Pages is enabled from `main` → `/docs`, the intended site address is:
+A terminal-first public username research project with a neon rainbow personality, source-linked results, and reports that stay on **your own computer**.
 
-`https://hellfire13666.github.io/ALIASTORM-STORM-REBORN/`
+- **154 public-source URL patterns** for username discovery
+- **Rainbow terminal** with progress and results in the console
+- **Site intelligence** plus optional HTML reports
+- **Private local vault** for your research, not public GitHub uploads
+- **An original GlitchByte visual world** of electric storms and color
 
-That URL **will not work until the repository is created and Pages has been enabled**.
+<div align="center">
+  <img src="docs/assets/storm-interface.webp" width="49%" alt="Rainbow terminal intelligence artwork">
+  <img src="docs/assets/storm-report.webp" width="49%" alt="Neon cyber-goth HTML report artwork">
+</div>
 
-### Terminal launch
+### 🖥️ Run the tool
 
-Use Python 3. Extract/download this repository and run inside the project folder:
+Python 3 is required. Clone or download this repository, then open a terminal in its project folder:
 
 ```bash
 bash RUN-ALIASTORM.sh --color always
 ```
 
-From the interactive menu: [1] USERNAME STORM, [2] SITE INTEL EXTRA, and [4] HTML RESULTS VIEWER. The tool prints results in your terminal; a browser opens only if you explicitly choose a saved HTML report.
+The interactive menu includes **Username Storm**, **Site Intel Extra**, and **HTML Results Viewer**. Firefox does not automatically open for scans; HTML reports open only when you choose them.
 
-Direct scan:
+### 🔐 Your vault stays yours
 
-```bash
-python3 aliastorm.py ExampleName --color always
-```
+Reports stay in `local-reports/`, which Git ignores. Optional vault helpers: `INIT-PRIVATE-VAULT.sh` and `COPY-REPORTS-TO-VAULT.sh`. Neither publishes private research. [Vault details](PRIVATE-VAULT-README.md).
 
-Run included offline tests:
+### 💜 A little credit where it's due
 
-```bash
-python3 -m unittest discover -s tests -q
-```
+Special thanks to **AnonCatalyst** for the inspiration and the original public-site catalog. Its MIT license is preserved in [the original license file](LICENSE-ORIGINAL-ALIASTORM.txt), with [attribution details](ATTRIBUTION.md).
 
-### 🔐 Private vault
+<sub>Research clues require verification. A matching username or public-page mention is not proof of identity.</sub>
 
-Real results stay in `local-reports/`, ignored by Git. You can use the optional **separate** private archive helper:
+<div align="center">
 
-```bash
-bash INIT-PRIVATE-VAULT.sh
-bash COPY-REPORTS-TO-VAULT.sh
-```
+**🌈 GLITCHBYTE PHANTOM LABS · STORM REBORN · MADE TO EXPLORE**
 
-The scripts only initialize directories and optionally copy current reports; no uploads, deletions, or changes to earlier tool installations. Read [`PRIVATE-VAULT-README.md`](PRIVATE-VAULT-README.md).
-
-### 💜 Credits
-
-Special thanks to **AnonCatalyst** for the inspiration and the original site URL catalog. Its full MIT copyright/license notice is retained as [`LICENSE-ORIGINAL-ALIASTORM.txt`](LICENSE-ORIGINAL-ALIASTORM.txt). See [`ATTRIBUTION.md`](ATTRIBUTION.md). The GlitchByte interface and artwork are separate. This is not an official continuation or endorsement of any other creator's project.
-
-### Evidence and responsible use
-
-A username match, HTTP success status, or public mention does not establish identity or ownership. Honor website access limits, review sources carefully, and keep identifiable/private research out of public GitHub commits.
-
-The repository is a prepared project bundle; its presence here does **not** mean any GitHub repository or site has been published yet.
+</div>
