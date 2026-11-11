@@ -298,7 +298,7 @@ def run_search(handle,mode='full',headers=False,allow_http=False,max_sources=Non
     return results
 
 def save_report(username,items,folder=None):
-    folder=Path(folder or (ROOT/'local-reports')); folder.mkdir(parents=True,exist_ok=True)
+    folder=Path(folder or (ROOT.parent/'local-reports')); folder.mkdir(parents=True,exist_ok=True)
     stamp=datetime.now(timezone.utc).strftime('%Y%m%d-%H%M%S-%fZ')
     name=re.sub(r'[^a-z0-9._-]','_',username.lower())
     root=folder/(f'{name}-{stamp}')
@@ -412,7 +412,7 @@ def menu(ui):
         elif choice=='3':demo(ui)
         elif choice=='4':
             from viewer_menu import choose_and_open
-            choose_and_open(ROOT, ui, ask)
+            choose_and_open(ROOT.parent, ui, ask)
         else:ui.say('  Choose 0, 1, 2, 3 or 4.','yellow')
         ask('  Press Enter to return...')
 

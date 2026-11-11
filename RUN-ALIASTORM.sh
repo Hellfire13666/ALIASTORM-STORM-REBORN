@@ -6,4 +6,4 @@ HERE="$(CDPATH='' cd -- "$(dirname -- "$0")" && pwd)"
 if [[ -t 1 && "${TERM:-dumb}" != dumb ]]; then
   printf '\033[2J\033[H'
 fi
-exec python3 "$HERE/aliastorm.py" "$@"
+exec python3 "$HERE/src/aliastorm.py" "$@"

@@ -1,58 +1,38 @@
 <div align="center">
 
-<a href="https://hellfire13666.github.io/ALIASTORM-STORM-REBORN/">
-  <img src="docs/assets/storm-enchanted.webp" alt="ALIASTORM Storm Reborn, a colorful cyber-goth rainbow storm" width="100%">
-</a>
+<a href="https://hellfire13666.github.io/ALIASTORM-STORM-REBORN/"><img src="docs/assets/storm-enchanted.webp" alt="ALIASTORM rainbow neon storm artwork" width="100%"></a>
 
 # 🌈 ALIASTORM // STORM REBORN ⚡
 
 **GLITCHBYTE PHANTOM LABS**
 
-*Username → Public Sites → HTML Intelligence*
+*Username → Public Sites → HTML Intel*
 
-**[🌈 ENTER THE RAINBOW STORM](https://hellfire13666.github.io/ALIASTORM-STORM-REBORN/)** · **[💀 EXPLORE THE SOURCE](aliastorm.py)** · **[🎨 ART GALLERY](https://hellfire13666.github.io/ALIASTORM-STORM-REBORN/#gallery)**
+**[🌈 ENTER THE STORM](https://hellfire13666.github.io/ALIASTORM-STORM-REBORN/)** · **[🎨 ART GALLERY](https://hellfire13666.github.io/ALIASTORM-STORM-REBORN/#gallery)** · **[⚡ SOURCE](src/aliastorm.py)**
 
 </div>
 
----
-
-### ⚡ A colorful little storm with serious research power
-
-A terminal-first public username research project with a neon rainbow personality, source-linked results, and reports that stay on **your own computer**.
-
-- **154 public-source URL patterns** for username discovery
-- **Rainbow terminal** with progress and results in the console
-- **Site intelligence** plus optional HTML reports
-- **Private local vault** for your research, not public GitHub uploads
-- **An original GlitchByte visual world** of electric storms and color
+A rainbow-colored, terminal-first public username research tool with up to **154 public-source patterns**, local HTML reports, site intelligence, and a private research vault. The terminal prints results; the browser opens only when you explicitly select a saved report.
 
 <div align="center">
-  <img src="docs/assets/storm-interface.webp" width="49%" alt="Rainbow terminal intelligence artwork">
-  <img src="docs/assets/storm-report.webp" width="49%" alt="Neon cyber-goth HTML report artwork">
+<img src="docs/assets/storm-interface.webp" width="49%" alt="ALIASTORM interface artwork">
+<img src="docs/assets/storm-report.webp" width="49%" alt="ALIASTORM report artwork">
 </div>
 
-### 🖥️ Run the tool
+### ⚡ Launch
 
-Python 3 is required. Clone or download this repository, then open a terminal in its project folder:
+From this repository folder with Python 3 installed:
 
 ```bash
 bash RUN-ALIASTORM.sh --color always
 ```
 
-The interactive menu includes **Username Storm**, **Site Intel Extra**, and **HTML Results Viewer**. Firefox does not automatically open for scans; HTML reports open only when you choose them.
+### 🔐 Local vault
 
-### 🔐 Your vault stays yours
+Research reports stay on your computer inside `local-reports/` (ignored by Git). Optional vault helpers and instructions are in [`src/`](src/PRIVATE-VAULT-README.md). The GitHub Pages gallery is a visual showcase, not a live scanner.
 
-Reports stay in `local-reports/`, which Git ignores. Optional vault helpers: `INIT-PRIVATE-VAULT.sh` and `COPY-REPORTS-TO-VAULT.sh`. Neither publishes private research. [Vault details](PRIVATE-VAULT-README.md).
+### 💜 Credits
 
-### 💜 A little credit where it's due
+Special thanks to **AnonCatalyst** for inspiration and the original public-site catalog. The full original MIT license remains in [`src/LICENSE-ORIGINAL-ALIASTORM.txt`](src/LICENSE-ORIGINAL-ALIASTORM.txt), with details in [`src/ATTRIBUTION.md`](src/ATTRIBUTION.md).
 
-Special thanks to **AnonCatalyst** for the inspiration and the original public-site catalog. Its MIT license is preserved in [the original license file](LICENSE-ORIGINAL-ALIASTORM.txt), with [attribution details](ATTRIBUTION.md).
-
-<sub>Research clues require verification. A matching username or public-page mention is not proof of identity.</sub>
-
-<div align="center">
-
-**🌈 GLITCHBYTE PHANTOM LABS · STORM REBORN · MADE TO EXPLORE**
-
-</div>
+<sub>A public username match or mention is not proof of identity. Review evidence carefully.</sub>

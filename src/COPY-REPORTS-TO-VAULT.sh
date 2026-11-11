@@ -2,7 +2,7 @@
 # Optional local report copy. Leaves source reports untouched.
 set -euo pipefail
 umask 077
-ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 FROM="${1:-${ROOT}/local-reports}"
 VAULT="${ALIASTORM_VAULT_DIR:-${HOME}/.local/share/aliastorm-storm-reborn-vault}"
 if [[ ! -d "$FROM" ]]; then
