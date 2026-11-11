@@ -19,13 +19,21 @@ A rainbow-colored, terminal-first public username research tool with up to **154
 <img src="docs/assets/storm-report.webp" width="49%" alt="ALIASTORM report artwork">
 </div>
 
-### ⚡ Launch
+### 🫧 ONE PASTE • ENTER THE STORM ✨
 
-From this repository folder with Python 3 installed:
+**Fresh install + launch on Linux**, right from your terminal. Requires Git and Python 3.
 
 ```bash
-bash RUN-ALIASTORM.sh --color always
+cd "$HOME/Downloads" && git clone https://github.com/Hellfire13666/ALIASTORM-STORM-REBORN.git && bash ALIASTORM-STORM-REBORN/RUN-ALIASTORM.sh --color always
 ```
+
+This creates its **own** folder. It does not replace your earlier installed tools. If you've already cloned this repo, run `bash RUN-ALIASTORM.sh --color always` from that folder instead.
+
+### 💅 THE RAINBOW MOD DECK
+
+**🌈 24-bit RGB terminal** · **🔎 154 public-source patterns** · **🧪 Offline demo** · **🛡️ Safer redirect handling** · **🔮 HTML report viewer** · **🔐 Local vault**
+
+The source, working mods, tests and artwork are here. The public website is the glittery showcase; actual scanning happens on your computer.
 
 ### 🔐 Local vault
 
