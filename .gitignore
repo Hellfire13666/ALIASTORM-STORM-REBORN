@@ -1,0 +1,14 @@
+# Never publish reports, personal research, or environment-specific files
+local-reports/
+private-vault/
+VAULT-PRIVATE/
+*REPORT-PRIVATE*
+*.sqlite3
+*.db
+*.log
+.env
+.env.*
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
