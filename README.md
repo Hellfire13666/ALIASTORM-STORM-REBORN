@@ -19,15 +19,23 @@ A rainbow-colored, terminal-first public username research tool with up to **154
 <img src="docs/assets/storm-report.webp" width="49%" alt="ALIASTORM report artwork">
 </div>
 
-### 🫧 ONE PASTE • ENTER THE STORM ✨
+### 💗🫧 ONE PASTE • ONE RAINBOW STORM
 
-**Fresh install + launch on Linux**, right from your terminal. Requires Git and Python 3.
+**Linux • Git + Python 3 • Copy the entire line into your terminal.** 🌈✨
 
 ```bash
-cd "$HOME/Downloads" && git clone https://github.com/Hellfire13666/ALIASTORM-STORM-REBORN.git && bash ALIASTORM-STORM-REBORN/RUN-ALIASTORM.sh --color always
+cd "$HOME/Downloads" && { [ -f ALIASTORM-STORM-REBORN/RUN-ALIASTORM.sh ] || git clone https://github.com/Hellfire13666/ALIASTORM-STORM-REBORN.git; } && cd ALIASTORM-STORM-REBORN && bash RUN-ALIASTORM.sh --color always
 ```
 
-This creates its **own** folder. It does not replace your earlier installed tools. If you've already cloned this repo, run `bash RUN-ALIASTORM.sh --color always` from that folder instead.
+💚 **First time:** downloads and opens the tool. **Next time:** opens the existing copy without cloning again. Exiting leaves you *inside* its folder, ready for the simple recipe below. No automatic browser opening.
+
+### 👾 Run a username storm (after opening the tool once)
+
+```bash
+bash RUN-ALIASTORM.sh Rosie --color always
+```
+
+Change `Rosie` to the public username you want to research. For the menu, use `bash RUN-ALIASTORM.sh --color always` again. **No `python3 aliastorm.py` from Downloads**: the source lives in `src/`. From any folder you can also run `bash "$HOME/Downloads/ALIASTORM-STORM-REBORN/RUN-ALIASTORM.sh" Rosie --color always`.
 
 ### 💅 THE RAINBOW MOD DECK
 
